@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ccc;
+}
+.container {
+    height: 500px;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+.apply_box {
+    max-width: 600px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+    border-radius: 12px;
+    box-shadow: 4px 3px 5px rgba(1,1,1,0.1);
+}
+.job {
+    width: 350px;
+}
+.title_small {
+    font-size: 19px;
+}
+
+.form_container {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+
+}
+.label {
+    font-size: 15px;
+}
+
+.button {
+    background-color: red;
+}
